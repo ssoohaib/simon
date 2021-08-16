@@ -79,13 +79,14 @@ $(document).keypress(function(){
         started=false;
     }
 });
-$(document).on("tap",function(){
+$(document).on("touchstart",function(){
     if(started===true)
     {
         nextSequence();
         started=false;
     }
 });
+
 if(screen.width<=400){
     $("h1").html("Touch Anywhere To Start")
 }
