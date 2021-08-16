@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: #011F3F;
     text-align: center;
 }
 
@@ -50,7 +50,7 @@ h5{
 @media only screen and (max-width: 400px){
     h1{
         font-size: 1.5rem;
-        margin: 3.9rem 2rem 5rem;
+        margin: 1rem 0.5rem 2rem;
         line-height: 1.6;
         color: #FEF2BF;
         font-family: 'Press Start 2P', cursive;
@@ -71,11 +71,11 @@ h5{
         margin: 0;
     }
     .father-region{
-        margin-top: 8rem;
+        margin-top: 3rem;
         width: 100%;
     }
     h5{
         font-size: 0.7rem;
-        margin-top: 5rem;
+        margin-top: 1rem;
     }
 }
